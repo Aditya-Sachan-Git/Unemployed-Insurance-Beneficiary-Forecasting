@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Output</title>
+        <link href="../static/index.css" rel="stylesheet">
+    </head>
+    <body class="output-body">
+        <nav>
+            <div class="logo">ACTUARIAL<span>.</span></div>
+            <div class="nav-links">
+                <a href="{{ url_for('index') }}#home">Home</a>
+                <a href="{{ url_for('index') }}#about">About</a>
+                <a href="{{ url_for('index') }}#contact">Contact</a>
+            </div>
+            <a href="{{ url_for('inspect') }}" class="predict-btn">Predict</a>
+        </nav>
+        <section class="output-hero">
+            <div class="hero-content">
+                <h1>The Beneficiary count<br><span id="Beneficiary-count">{{ prediction }}</span> <span>.</span></h1>
+            </div>
+        </section>
+        <footer class="inspect-footer">
+            <div class="footer-container">
+                <div class="footer-left">
+                    <h3>ACTUARIAL<span>.</span></h3>
+                </div>
+                <p>&copy; 2025 ACTUARIAL. All rights reserved.</p>
+                <div class="footer-right">
+                    <a href="{{ url_for('index') }}#home">Home</a>
+                    <a href="{{ url_for('index') }}#about">About</a>
+                    <a href="{{ url_for('index') }}#contact">Contact</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

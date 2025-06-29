@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ACTUARIAL - Insurance Forecasting</title>
+        <link href="../static/index.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">ACTUARIAL<span>.</span></div>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a href="{{ url_for('inspect') }}" class="predict-btn">Predict</a>
+        </nav>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Insurance Beneficiary<br>Forecasting<span>.</span></h1>
+                <p>Insurance for Life's Unexpected Chapters.</p>
+            </div>
+        </section>
+        <section id="about">
+            <div class="contact-heading">ABOUT</div>
+            <div class="contact-title">ABOUT US</div>
+            <div class="about">
+                <img src="https://assets.designtemplate.io/images/Flat%202D%20Character%20Illustration%20of%20Business%20Report%20Presentation%20with%20Graphs-HD.webp" alt="Chart Illustration" />
+                <div class="about-text">
+                <div class="about-step">
+                    <h3>📊 Data Collection and Preprocessing</h3>
+                    <p>Gather time series data and address issues to prepare a clean dataset for analysis.</p>
+                </div>
+                <div class="about-step">
+                    <h3>🕒 Temporal Feature Engineering</h3>
+                    <p>Engineer temporal features that enhance the dataset for time-aware model training.</p>
+                </div>
+                <div class="about-step">
+                    <h3>🤖 Model Selection and Training</h3>
+                    <p>Select and train forecasting algorithms like ARIMA, AR, Prophet, etc.</p>
+                </div>
+                <div class="about-step">
+                    <h3>🚀 Model Deployment</h3>
+                    <p>Deploy the finalized model with metrics evaluation and iteration.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact-heading">CONTACT</div>
+            <div class="contact-title">CONTACT US</div>
+
+            <div class="contact-section">
+            <div class="contact-info">
+                <div class="info-item">
+                <div class="info-icon">📍</div>
+                <div class="info-details">
+                    <h4>Location:</h4>
+                    <p>Survey no 91, Sundarayya Vignana Kendram,<br>
+                    Technical Block, 6th floor, Madhava Reddy Colony,<br>
+                    Gachibowli, Hyderabad, Telangana 500032</p>
+                </div>
+                </div>
+                <div class="info-item">
+                <div class="info-icon">✉️</div>
+                <div class="info-details">
+                    <h4>Email:</h4>
+                    <p>info@thesmartbridge.com</p>
+                </div>
+                </div>
+                <div class="info-item">
+                <div class="info-icon">📞</div>
+                <div class="info-details">
+                    <h4>Call:</h4>
+                    <p>+91 6304320444</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form>
+                <div class="form-row">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <input type="text" placeholder="Subject" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="send-btn">Send Message</button>
+                </form>
+            </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-left">
+                    <h3>ACTUARIAL<span>.</span></h3>
+                </div>
+                <p>&copy; 2025 ACTUARIAL. All rights reserved.</p>
+                <div class="footer-right">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script src="../static/index.js" id="nav-script"></script>
+</html>
