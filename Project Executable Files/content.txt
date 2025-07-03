@@ -1,3 +1,0 @@
-1. Model Training files
-2. Model Testing files
-3. Flask files (local deployment)
