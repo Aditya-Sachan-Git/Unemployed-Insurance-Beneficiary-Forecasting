@@ -13,3 +13,5 @@ An insurance provider offering unemployment insurance policies to individuals an
 Scenario 3:
 
 A research institute focusing on labor market dynamics and social welfare conducts a study on the impact of economic fluctuations on unemployment insurance claims. By analyzing historical data and utilizing the forecasting model, researchers can identify patterns and trends in beneficiary numbers in response to various economic conditions. This analysis enhances understanding of the factors driving unemployment and informs policy recommendations aimed at stabilizing labor markets and supporting affected individuals.
+
+All the files related to the project are available in the repository folders.
