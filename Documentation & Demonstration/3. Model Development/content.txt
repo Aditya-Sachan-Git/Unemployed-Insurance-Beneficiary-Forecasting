@@ -1,2 +1,0 @@
-1. Model Selection Report
-2. Initial Model Training Code, Model Validation and Evaluation Report
