@@ -17,7 +17,6 @@ A predictive analytics solution for forecasting unemployment insurance beneficia
 - [Screenshots](#screenshots)
 - [Future Enhancements](#future-enhancements)
 - [Credits](#credits)
-- [License](#license)
 
 ## Project Overview
 
